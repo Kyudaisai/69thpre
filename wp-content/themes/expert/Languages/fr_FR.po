@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: web-bussines\n"
+"POT-Creation-Date: 2013-08-29 19:45+0400\n"
+"PO-Revision-Date: 2013-08-29 20:37+0400\n"
+"Last-Translator: dianna <dianna.arakelyan@gmail.com>\n"
+"Language-Team: xx\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress1\\wp-content\\themes\\web-"
+"bussines\n"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:49
+msgid "Archive for the"
+msgstr "Archive pour la"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:49
+msgid "Category"
+msgstr "Catégorie"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:51
+msgid "Posts Tagged"
+msgstr "Posts Tagged"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:53
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:55
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:57
+msgid "Archive for"
+msgstr "Archive pour"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:59
+msgid "Author Archive"
+msgstr "Archive de l'auteur"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:61
+msgid "Blog Archives"
+msgstr "Blog Archives"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:22
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:32
+msgid "&#8249; Older comments"
+msgstr "<Commentaires âgées"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:23
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:33
+msgid "Newer comments &#8250;"
+msgstr "Commentaires récents>"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:44
+msgid "Pings&#47;Trackbacks"
+msgstr "Pings / Trackbacks"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:47
+#, php-format
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s pour \"%3$s\""
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:61
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:60
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:149
+msgid "Name"
+msgstr "Nom"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:62
+msgid "E-mail"
+msgstr "E-mail"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:63
+msgid "Website"
+msgstr "Site"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:67
+msgid "Comment"
+msgstr "Commenter"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:37
+msgid "Schemes"
+msgstr "Régimes"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:50
+msgid "Header Element Background Color."
+msgstr "Tête Element couleur de fond."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:64
+msgid "Content Background Color."
+msgstr "Contexte contenu couleur."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:78
+msgid "Slider Background Color."
+msgstr "Curseur couleur de fond."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:91
+msgid "Footer Background Color."
+msgstr "Contexte Footer couleur."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:105
+msgid "Header Text Color"
+msgstr "Tête Couleur du texte"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:119
+msgid "Primary Text Color."
+msgstr "Couleur principale du texte."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:133
+msgid "Footer Text Color."
+msgstr "Footer couleur du texte."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:147
+msgid "Primary Links Color."
+msgstr "Liens primaires de couleur."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:160
+msgid "Primary Links Hover Color."
+msgstr "Liens primaires Survolez couleur."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:174
+msgid "Hover and Selected Menu Item Color."
+msgstr "Passez et sélectionné la rubrique Couleur."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:211
+msgid "Fonts"
+msgstr "Fonts"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:222
+msgid "Header Font"
+msgstr "Font-tête"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:236
+msgid "Primary Font (Body)"
+msgstr "Font primaire (Body)"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:250
+msgid "Secondary Font (Subtitle)"
+msgstr "Font secondaire (sous-titres)"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:264
+msgid "Inputs and Text Areas Font"
+msgstr "Les entrées et les zones texte Font"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/footer.php:236
+msgid "Copyright 2013 "
+msgstr "Droits d'auteur 2013 "
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:88
+msgid "Primary Widget Area"
+msgstr "Espace Widget primaire"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:92
+msgid "The primary widget area"
+msgstr "La zone du widget primaire"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:109
+msgid "Secondary Widget Area"
+msgstr "Zone de Widget secondaire"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:113
+msgid "The secondary widget area"
+msgstr "La zone du widget secondaire"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:126
+msgid "Footer Sidebar"
+msgstr "Encadré Pied"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:130
+msgid "The footer-sidebar"
+msgstr "Le pied-sidebar"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:156
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:348
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1713
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1745
+msgid "Edit"
+msgstr "Modifier"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1728
+msgid "Post author"
+msgstr "Poster auteur"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1734
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1749
+msgid "Reply"
+msgstr "Répondre"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/index.php:88
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-blog.php:102
+msgid "More"
+msgstr "Plus"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:66
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:157
+msgid "Your Email"
+msgstr "Votre e-mail"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:78
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:174
+msgid "Comments"
+msgstr "Commentaires"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:95
+msgid "The name field is required."
+msgstr "Le champ nom est obligatoire."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:100
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Incorrect Captcha code. Please try again."
+msgstr "Code Captcha incorrect. S'il vous plaît essayer de nouveau."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:105
+msgid "Error submitting message."
+msgstr "Erreur soumettre message."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:111
+msgid "Your message was submitted successfully"
+msgstr "Votre message a été envoyé avec succès"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:165
+msgid "Message title"
+msgstr "Titre du message"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:177
+msgid "Send a copy of this email to yourself"
+msgstr "Envoyer une copie de cet e-mail pour vous"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Send"
+msgstr "Envoyer"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "The Name field is required."
+msgstr "Le champ nom est obligatoire."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "The Email field is required."
+msgstr "Le champ Email est requis."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Please provide a valid email address."
+msgstr "S'il vous plaît fournir une adresse email valide."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:188
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:47
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:48
+msgid "Password"
+msgstr "Mot de passe"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:49
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:50
+msgid "Log In"
+msgstr "Connexion"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:53
+msgid "Lost your password?"
+msgstr "Mot de passe perdu?"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:59
+msgid "Log Out"
+msgstr "Déconnexion"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:48
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:40
+msgid "Type here"
+msgstr "Tapez ici"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:49
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:34
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:41
+msgid "Search"
+msgstr "Rechercher"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:53
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:45
+msgid "Posts"
+msgstr "Messages"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:54
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:46
+msgid "Pages"
+msgstr "Pages"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:65
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:57
+msgid "All Categories"
+msgstr "Toutes les catégories"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:68
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:60
+msgid "Select a month"
+msgstr "Sélectionner un mois"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/searchform.php:2
+msgid "Search..."
+msgstr "Recherche ..."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/admin/install_sampl_date.php:1458
+msgid "Home"
+msgstr "Maison"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom/seo_meta.php:10
+msgid "SEO Web Business"
+msgstr "SEO Web Business"

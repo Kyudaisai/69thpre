@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: web-bussines\n"
+"POT-Creation-Date: 2013-08-29 19:45+0400\n"
+"PO-Revision-Date: 2013-08-29 20:42+0400\n"
+"Last-Translator: dianna <dianna.arakelyan@gmail.com>\n"
+"Language-Team: xx\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress1\\wp-content\\themes\\web-"
+"bussines\n"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:49
+msgid "Archive for the"
+msgstr "Archive għall-"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:49
+msgid "Category"
+msgstr "Kategorija"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:51
+msgid "Posts Tagged"
+msgstr "Posts Tagged"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:53
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:55
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:57
+msgid "Archive for"
+msgstr "Arkivju għal"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:59
+msgid "Author Archive"
+msgstr "Arkivju Awtur"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:61
+msgid "Blog Archives"
+msgstr "Arkivji Blog"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:22
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:32
+msgid "&#8249; Older comments"
+msgstr "<Kummenti Older"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:23
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:33
+msgid "Newer comments &#8250;"
+msgstr "Kummenti Godda>"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:44
+msgid "Pings&#47;Trackbacks"
+msgstr "Pings / Trackbacks"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:47
+#, php-format
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s għal \"%3$s\""
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:61
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:60
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:149
+msgid "Name"
+msgstr "Isem"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:62
+msgid "E-mail"
+msgstr "E-mail"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:63
+msgid "Website"
+msgstr "Website"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:67
+msgid "Comment"
+msgstr "Kumment"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:37
+msgid "Schemes"
+msgstr "Skemi"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:50
+msgid "Header Element Background Color."
+msgstr "Header Color Background Element."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:64
+msgid "Content Background Color."
+msgstr "Kontenut Color Background."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:78
+msgid "Slider Background Color."
+msgstr "Color Background Slider."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:91
+msgid "Footer Background Color."
+msgstr "Color Background Footer."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:105
+msgid "Header Text Color"
+msgstr "Header Kulur Test"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:119
+msgid "Primary Text Color."
+msgstr "Primarja Test Color."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:133
+msgid "Footer Text Color."
+msgstr "Color Test Footer."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:147
+msgid "Primary Links Color."
+msgstr "Links primarji kulur."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:160
+msgid "Primary Links Hover Color."
+msgstr "Primarji Links Hover Color."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:174
+msgid "Hover and Selected Menu Item Color."
+msgstr "Hover u Magħżula Menu Punt Color."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:211
+msgid "Fonts"
+msgstr "Fonts"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:222
+msgid "Header Font"
+msgstr "Header Font"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:236
+msgid "Primary Font (Body)"
+msgstr "Font Primarja (Korp)"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:250
+msgid "Secondary Font (Subtitle)"
+msgstr "Font sekondarju (Sottotitolu)"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:264
+msgid "Inputs and Text Areas Font"
+msgstr "Inputs u Test Żoni Font"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/footer.php:236
+msgid "Copyright 2013 "
+msgstr "Copyright 2013 "
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:88
+msgid "Primary Widget Area"
+msgstr "Żona Widget primarja"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:92
+msgid "The primary widget area"
+msgstr "Iż-żona widget primarja"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:109
+msgid "Secondary Widget Area"
+msgstr "Żona Widget Sekondarja"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:113
+msgid "The secondary widget area"
+msgstr "Iż-żona widget sekondarja"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:126
+msgid "Footer Sidebar"
+msgstr "Sidebar Footer"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:130
+msgid "The footer-sidebar"
+msgstr "Il-footer-sidebar"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:156
+msgid "Primary Menu"
+msgstr "Menu primarja"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:348
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1713
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1745
+msgid "Edit"
+msgstr "Edit"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1728
+msgid "Post author"
+msgstr "Post awtur"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1734
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s fil %2$s"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1749
+msgid "Reply"
+msgstr "Tweġiba"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/index.php:88
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-blog.php:102
+msgid "More"
+msgstr "Aktar"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:66
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:157
+msgid "Your Email"
+msgstr "Your Email"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:78
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:174
+msgid "Comments"
+msgstr "Kummenti"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:95
+msgid "The name field is required."
+msgstr "Il-qasam huwa meħtieġ isem."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:100
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Incorrect Captcha code. Please try again."
+msgstr "Kodiċi Captcha żbaljata. Jekk jogħġbok erġa 'pprova."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:105
+msgid "Error submitting message."
+msgstr "Error jissottomettu messaġġ."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:111
+msgid "Your message was submitted successfully"
+msgstr "Il-messaġġ tiegħek ġie ppreżentat b'suċċess"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:165
+msgid "Message title"
+msgstr "Messaġġ"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:177
+msgid "Send a copy of this email to yourself"
+msgstr "Tibgħat kopja ta 'din l-email lilek innifsek"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Send"
+msgstr "Send"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "The Name field is required."
+msgstr "Il-qasam huwa meħtieġ isem."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "The Email field is required."
+msgstr "Il-qasam Email hija meħtieġa."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Please provide a valid email address."
+msgstr "Jekk jogħġbok ipprovdi indirizz email validu."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:188
+msgid "Reset"
+msgstr "Irrisettja"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:47
+msgid "Username"
+msgstr "Username"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:48
+msgid "Password"
+msgstr "Password"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:49
+msgid "Remember Me"
+msgstr "Ftakar Me"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:50
+msgid "Log In"
+msgstr "Log In"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:53
+msgid "Lost your password?"
+msgstr "Tlift il-password tiegħek?"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:59
+msgid "Log Out"
+msgstr "Log Out"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:48
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:40
+msgid "Type here"
+msgstr "Tip hawn"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:49
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:34
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:41
+msgid "Search"
+msgstr "Fittex"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:53
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:45
+msgid "Posts"
+msgstr "Posts"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:54
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:46
+msgid "Pages"
+msgstr "Paġni"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:65
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:57
+msgid "All Categories"
+msgstr "Kategoriji kollha"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:68
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:60
+msgid "Select a month"
+msgstr "Agħżel xahar"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/searchform.php:2
+msgid "Search..."
+msgstr "Fittex ..."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/admin/install_sampl_date.php:1458
+msgid "Home"
+msgstr "Home"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom/seo_meta.php:10
+msgid "SEO Web Business"
+msgstr "SEO Web Business"

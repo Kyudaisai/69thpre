@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: web-bussines\n"
+"POT-Creation-Date: 2013-08-29 19:45+0400\n"
+"PO-Revision-Date: 2013-08-29 20:45+0400\n"
+"Last-Translator: dianna <dianna.arakelyan@gmail.com>\n"
+"Language-Team: xx\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress1\\wp-content\\themes\\web-"
+"bussines\n"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:49
+msgid "Archive for the"
+msgstr "தொகுப்புகள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:49
+msgid "Category"
+msgstr "வகை"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:51
+msgid "Posts Tagged"
+msgstr "Posts Tagged"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:53
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:55
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:57
+msgid "Archive for"
+msgstr "தொகுப்புகள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:59
+msgid "Author Archive"
+msgstr "ஆசிரியர் காப்பகம்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:61
+msgid "Blog Archives"
+msgstr "வலைப்பதிவு காப்பகம்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:22
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:32
+msgid "&#8249; Older comments"
+msgstr "<பழைய கருத்துக்கள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:23
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:33
+msgid "Newer comments &#8250;"
+msgstr "புதிய கருத்துக்கள்>"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:44
+msgid "Pings&#47;Trackbacks"
+msgstr "பிங் / கவிதை பட்டறை"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:47
+#, php-format
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s க்கான \"%3$s\""
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:61
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:60
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:149
+msgid "Name"
+msgstr "பெயர்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:62
+msgid "E-mail"
+msgstr "மின்னஞ்சல்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:63
+msgid "Website"
+msgstr "இணையத்தளம்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:67
+msgid "Comment"
+msgstr "கருத்து"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:37
+msgid "Schemes"
+msgstr "திட்டங்கள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:50
+msgid "Header Element Background Color."
+msgstr "தலைப்பு அங்கம் வண்ணம்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:64
+msgid "Content Background Color."
+msgstr "உள்ளடக்க பின்புல வண்ணம்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:78
+msgid "Slider Background Color."
+msgstr "ஸ்லைடர் வண்ணம்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:91
+msgid "Footer Background Color."
+msgstr "அடிக்குறிப்பு பின்னணி நிறம்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:105
+msgid "Header Text Color"
+msgstr "தலைப்பு உரை வண்ணம்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:119
+msgid "Primary Text Color."
+msgstr "முதன்மை உரை வண்ணம்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:133
+msgid "Footer Text Color."
+msgstr "அடிக்குறிப்பு உரை வண்ணம்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:147
+msgid "Primary Links Color."
+msgstr "கலர் முதன்மை இணைப்புகள்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:160
+msgid "Primary Links Hover Color."
+msgstr "முதன்மை இணைப்புகள் நிறம் மாறிக்கொண்டிருக்கிறது."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:174
+msgid "Hover and Selected Menu Item Color."
+msgstr "படல் மற்றும் தேர்ந்தெடுத்ததை மெனு உருப்படி நிறம்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:211
+msgid "Fonts"
+msgstr "எழுத்துருக்கள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:222
+msgid "Header Font"
+msgstr "எழுத்துரு"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:236
+msgid "Primary Font (Body)"
+msgstr "முதன்மை எழுத்துரு (உடல்)"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:250
+msgid "Secondary Font (Subtitle)"
+msgstr "இரண்டாம் நிலை எழுத்துரு (வரிகள்)"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:264
+msgid "Inputs and Text Areas Font"
+msgstr "உள்ளீடுகள் மற்றும் உரை பகுதிகள் எழுத்துரு"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/footer.php:236
+msgid "Copyright 2013 "
+msgstr "பதிப்புரிமை 2013 "
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:88
+msgid "Primary Widget Area"
+msgstr "முதன்மை சாளரம் பகுதி"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:92
+msgid "The primary widget area"
+msgstr "முதன்மை சாளரத்தின் பகுதி"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:109
+msgid "Secondary Widget Area"
+msgstr "இரண்டாம் சாளரம் பகுதி"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:113
+msgid "The secondary widget area"
+msgstr "இரண்டாம் விட்ஜெட்டை பகுதி"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:126
+msgid "Footer Sidebar"
+msgstr "முடிப்பு பக்கப்பட்டி"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:130
+msgid "The footer-sidebar"
+msgstr "முடிப்பு-பக்கப்பட்டியில்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:156
+msgid "Primary Menu"
+msgstr "முதன்மை பட்டி"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:348
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1713
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1745
+msgid "Edit"
+msgstr "திருத்த"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1728
+msgid "Post author"
+msgstr "எழுத்தாளர் பதிவு"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1734
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s மணிக்கு %2$s"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1749
+msgid "Reply"
+msgstr "பதில்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/index.php:88
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-blog.php:102
+msgid "More"
+msgstr "அதிக"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:66
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:157
+msgid "Your Email"
+msgstr "உங்கள் மின்னஞ்சல்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:78
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:174
+msgid "Comments"
+msgstr "கருத்துரைகள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:95
+msgid "The name field is required."
+msgstr "பெயர் துறையில் தேவைப்படுகிறது."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:100
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Incorrect Captcha code. Please try again."
+msgstr "தவறான அப்பாவி குறியீடு. மீண்டும் முயற்சிக்கவும்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:105
+msgid "Error submitting message."
+msgstr "பிழை செய்தி சமர்ப்பிக்கும்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:111
+msgid "Your message was submitted successfully"
+msgstr "உங்கள் செய்தி வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:165
+msgid "Message title"
+msgstr "செய்தி தலைப்பை"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:177
+msgid "Send a copy of this email to yourself"
+msgstr "உங்களை இந்த மின்னஞ்சல் நகலை எனக்கு அனுப்பவும்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Send"
+msgstr "அனுப்பு"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "The Name field is required."
+msgstr "பெயர் துறையில் தேவைப்படுகிறது."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "The Email field is required."
+msgstr "மின்னஞ்சல் துறையில் தேவைப்படுகிறது."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Please provide a valid email address."
+msgstr "ஒரு சரியான மின்னஞ்சல் முகவரியை அளியுங்கள்."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:188
+msgid "Reset"
+msgstr "மீட்டமை"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:47
+msgid "Username"
+msgstr "பயனர்பெயர்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:48
+msgid "Password"
+msgstr "கடவுச்சொல்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:49
+msgid "Remember Me"
+msgstr "என்னை ஞாபகம் வைத்து கொள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:50
+msgid "Log In"
+msgstr "உள்நுழை"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:53
+msgid "Lost your password?"
+msgstr "உங்கள் கடவுச்சொல்லை இழந்துவிட்டீர்களா?"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:59
+msgid "Log Out"
+msgstr "வெளியேறு"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:48
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:40
+msgid "Type here"
+msgstr "இங்கே தட்டச்சு"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:49
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:34
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:41
+msgid "Search"
+msgstr "தேடல்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:53
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:45
+msgid "Posts"
+msgstr "பதிவுகள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:54
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:46
+msgid "Pages"
+msgstr "பக்கங்கள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:65
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:57
+msgid "All Categories"
+msgstr "அனைத்து வகைகள்"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:68
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:60
+msgid "Select a month"
+msgstr "ஒரு மாதம் தேர்வு"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/searchform.php:2
+msgid "Search..."
+msgstr "தேடல் ..."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/admin/install_sampl_date.php:1458
+msgid "Home"
+msgstr "முகப்பு"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom/seo_meta.php:10
+msgid "SEO Web Business"
+msgstr "எஸ்சிஓ வலை வர்த்தகம்"

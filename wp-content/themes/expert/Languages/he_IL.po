@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: web-bussines\n"
+"POT-Creation-Date: 2013-08-29 19:45+0400\n"
+"PO-Revision-Date: 2013-08-29 20:39+0400\n"
+"Last-Translator: dianna <dianna.arakelyan@gmail.com>\n"
+"Language-Team: xx\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress1\\wp-content\\themes\\web-"
+"bussines\n"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:49
+msgid "Archive for the"
+msgstr "ארכיון עבור"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:49
+msgid "Category"
+msgstr "קטגוריה"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:51
+msgid "Posts Tagged"
+msgstr "הודעות שתייגו"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:53
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:55
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:57
+msgid "Archive for"
+msgstr "ארכיון עבור"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:59
+msgid "Author Archive"
+msgstr "ארכיון כתב"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/category.php:61
+msgid "Blog Archives"
+msgstr "ארכיון בלוג"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:22
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:32
+msgid "&#8249; Older comments"
+msgstr "<הערות נוספות"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:23
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:33
+msgid "Newer comments &#8250;"
+msgstr "הערות חדשות יותר>"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:44
+msgid "Pings&#47;Trackbacks"
+msgstr "Pings / Trackbacks"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:47
+#, php-format
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s עבור \"%3$s\""
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:61
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:60
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:149
+msgid "Name"
+msgstr "שם"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:62
+msgid "E-mail"
+msgstr "דואר אלקטרוני"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:63
+msgid "Website"
+msgstr "אתר אינטרנט"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/comments.php:67
+msgid "Comment"
+msgstr "הערה"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:37
+msgid "Schemes"
+msgstr "ערכות"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:50
+msgid "Header Element Background Color."
+msgstr "צבע רקע של אלמנט כותרת."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:64
+msgid "Content Background Color."
+msgstr "צבע רקע של תוכן."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:78
+msgid "Slider Background Color."
+msgstr "צבע רקע מחוון."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:91
+msgid "Footer Background Color."
+msgstr "צבע רקע של כותרת תחתונה."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:105
+msgid "Header Text Color"
+msgstr "צבע טקסט של כותרת"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:119
+msgid "Primary Text Color."
+msgstr "צבע טקסט עיקרי."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:133
+msgid "Footer Text Color."
+msgstr "צבע טקסט תחתונה."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:147
+msgid "Primary Links Color."
+msgstr "קישורים צבע עיקריים."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:160
+msgid "Primary Links Hover Color."
+msgstr "קישורים עיקריים רחף צבע."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:174
+msgid "Hover and Selected Menu Item Color."
+msgstr "העבר ונבחר צבע פריט בתפריט."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:211
+msgid "Fonts"
+msgstr "גופנים"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:222
+msgid "Header Font"
+msgstr "גופן הכותרת"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:236
+msgid "Primary Font (Body)"
+msgstr "הגופן ראשי (גוף)"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:250
+msgid "Secondary Font (Subtitle)"
+msgstr "גופן המשני (כתוביות)"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom_functions.php:264
+msgid "Inputs and Text Areas Font"
+msgstr "תשומות ואת גופן טקסט תחומי"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/footer.php:236
+msgid "Copyright 2013 "
+msgstr "זכויות יוצרים 2013 "
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:88
+msgid "Primary Widget Area"
+msgstr "שטח עיקרי יישומון"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:92
+msgid "The primary widget area"
+msgstr "האזור העיקרי יישומון"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:109
+msgid "Secondary Widget Area"
+msgstr "איזור יישומון המשני"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:113
+msgid "The secondary widget area"
+msgstr "אזור יישומון המשני"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:126
+msgid "Footer Sidebar"
+msgstr "הסרגל הצידי תחתונה"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:130
+msgid "The footer-sidebar"
+msgstr "הכותרת התחתונה-Sidebar"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:156
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:348
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1713
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1745
+msgid "Edit"
+msgstr "לערוך"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1728
+msgid "Post author"
+msgstr "הודעת נושא"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1734
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/functions.php:1749
+msgid "Reply"
+msgstr "תגובה"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/index.php:88
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-blog.php:102
+msgid "More"
+msgstr "יותר"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:66
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:157
+msgid "Your Email"
+msgstr "הדואר האלקטרוני שלך"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:78
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:174
+msgid "Comments"
+msgstr "תגובות"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:95
+msgid "The name field is required."
+msgstr "נדרש שם השדה."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:100
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Incorrect Captcha code. Please try again."
+msgstr "קוד Captcha שגוי. אנא נסה שוב."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:105
+msgid "Error submitting message."
+msgstr "שגיאת הגשת הודעה."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:111
+msgid "Your message was submitted successfully"
+msgstr "הודעתך נשלחה בהצלחה"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:165
+msgid "Message title"
+msgstr "כותרת הודעה"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:177
+msgid "Send a copy of this email to yourself"
+msgstr "שלח עותק של דואל זה לעצמך"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Send"
+msgstr "לשלוח"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "The Name field is required."
+msgstr "נדרש השדה שם."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "The Email field is required."
+msgstr "נדרש תחום הדואר האלקטרוני."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:187
+msgid "Please provide a valid email address."
+msgstr "נא לספק כתובת ל חוקית."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-contact.php:188
+msgid "Reset"
+msgstr "לאתחל"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:47
+msgid "Username"
+msgstr "שם משתמש"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:48
+msgid "Password"
+msgstr "סיסמא"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:49
+msgid "Remember Me"
+msgstr "זכור אותי"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:50
+msgid "Log In"
+msgstr "התחבר"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:53
+msgid "Lost your password?"
+msgstr "שכח את הסיסמה שלך?"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-login.php:59
+msgid "Log Out"
+msgstr "התנתק"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:48
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:40
+msgid "Type here"
+msgstr "הקלד כאן"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:49
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:34
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:41
+msgid "Search"
+msgstr "לחפש"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:53
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:45
+msgid "Posts"
+msgstr "הודעות"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:54
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:46
+msgid "Pages"
+msgstr "עמודים"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:65
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:57
+msgid "All Categories"
+msgstr "כל הקטגוריות"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/page-search.php:68
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/search.php:60
+msgid "Select a month"
+msgstr "בחר חודש"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/searchform.php:2
+msgid "Search..."
+msgstr "חיפוש ..."
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/admin/install_sampl_date.php:1458
+msgid "Home"
+msgstr "בית"
+
+#: C:\wamp\www\wordpress1\wp-content\themes\web-bussines/custom/seo_meta.php:10
+msgid "SEO Web Business"
+msgstr "עסקי אינטרנט קידום אתרים"

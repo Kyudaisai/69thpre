@@ -1,0 +1,111 @@
+<form method="post" action="themes.php?page=web_dorado_theme&controller=slider_page&saved=saved">
+  <table class="optioninput" width="100%">
+    <tr>
+      <td width="30%"  valign="middle"><h3>Slider height <span class="hasTip" style="cursor: pointer;color: #3B5998;" title="Specify the height of the slider.">[?]</span></h3></td>
+      <td><input style="width:66px;" name="ct_slider_height" id="ct_slider_height" value="{HEIGHT}" /></td>
+    </tr>
+    <tr>
+      <td width="30%"  valign="middle"><h3>Animation speed <span class="hasTip" style="cursor: pointer;color: #3B5998;" title="The speed of the animation (image transition) can be changed according to the provided speed (in milliseconds) in the box.">[?]</span></h3></td>
+      <td><input style="width:66px;" name="ct_anim_speed" id="ct_anim_speed" value="{SPEED}" /></td>
+    </tr>
+    <tr>
+      <td width="30%"  valign="middle"><h3>Pause time <span class="hasTip" style="cursor: pointer;color: #3B5998;" title="You can provide a pause time for the slider in the box. This is the time interval between image transitions.">[?]</span></h3>
+        </h3></td>
+      <td><input style="width:66px;" name="ct_pause_time" id="ct_pause_time" value="{PAUSE}" /></td>
+    </tr>
+    <tr>
+      <td width="30%"  valign="middle"><h3>Stop animation while hovering <span class="hasTip" style="cursor: pointer;color: #3B5998;" title="If you want to have the animation stop when hovering, you need to check the box.">[?]</span> </h3></td>
+      <td><input type="checkbox" name="ct_pause_on_hover" id="ct_pause_on_hover" value="true" {CHECKED}></td>
+    </tr>
+    <tr>
+      <td width="30%"  valign="middle"><h3>Effect <span class="hasTip" style="cursor: pointer;color: #3B5998;" title="The slider effect can be selected from the provided 16 options.">[?]</span> </h3></td>
+      <td><select style="width:215px;" name="ct_effect" id="ct_effect">
+          <option value="random">random</option>
+          <option value="sliceDown">sliceDown</option>
+          <option value="sliceDownLeft">sliceDownLeft</option>
+          <option value="sliceUp">sliceUp</option>
+          <option value="sliceUpLeft">sliceUpLeft</option>
+          <option value="sliceUpDown">sliceUpDown</option>
+          <option value="sliceUpDownLeft">sliceUpDownLeft</option>
+          <option value="fold">fold</option>
+          <option value="fade">fade</option>
+          <option value="slideInRight">slideInRight</option>
+          <option value="slideInLeft">slideInLeft</option>
+          <option value="boxRandom">boxRandom</option>
+          <option value="boxRain">boxRain</option>
+          <option value="boxRainReverse">boxRainReverse</option>
+          <option value="boxRainGrow">boxRainGrow</option>
+          <option value="boxRainGrowReverse">boxRainGrowReverse</option>
+        </select></td>
+    </tr>
+    {LIST}
+    <tr id="add-image-line">
+      <td width="30%"  valign="middle"><h3>Add image <span class="hasTip" style="cursor: pointer;color: #3B5998;" title="Using this option you can add images for the slider.">[?]</span> </h3></td>
+      <td><input class="upload-button button" type="button" id="slides-img-add-button" value="Upload New Image" /></td>
+    </tr>
+  </table>
+  <p class="submit" style="float: left; margin-left: -22px; margin-right: 8px;">
+    <input class="button" name="save" type="submit" value="Save changes" style="background: url({THEME_URL}/images/button.png) center; background-size: 100% 100%;border: 0;color: #fff;" />
+    <input type="hidden" name="action" value="save" />
+  </p>
+</form>
+<form method="post" action="themes.php?page=web_dorado_theme&controller=slider_page&reset=reset">
+  <p class="submit">
+    <input class="button" name="reset" type="submit" value="Reset"  style="background: url({THEME_URL}/images/button.png) center; background-size: 100% 100%;border: 0;color: #fff;"/>
+    <input type="hidden" name="action" value="reset" />
+  </p>
+</form>
+</div>
+<script type="text/javascript">
+
+jQuery(document).ready(function($){ 
+	
+	 var j=$('tr.slide-from-base').length;
+
+	
+	$('#main_slider_page .upload-button').click(function(){
+		var button="add";
+ 		tb_show('', 'media-upload.php?type=image&amp;TB_iframe=true');  
+		add_image=send_to_editor ;
+		
+		window.send_to_editor = function(html) { 
+			imgurl = jQuery('img',html).attr('src');
+			var tr='<tr class="new"><td width="20%" valign="middle"><h3>Image</h3></td><td><input size="36" value="'+imgurl+'" class="upload" id="ct_image_link_'+j+'" name="ct_image_link_'+j+'" /><input type="submit" class="update-button" value="Update image"><input class="remove-image" value="Remove image" type="submit" /></td></tr> <tr class="new" rel="'+j+'"><td width="20%" valign="middle"><h3></h3></td><td><img  src="'+imgurl+'" /></td></tr><tr class="new"><td width="20%" valign="middle"><h3>The URL of image when clicked<span class="hasTip" style="cursor: pointer;color: #3B5998;" title="You can link the slider images to specific links in your website providing URL of the corresponding page in the provided box.">[?]</span></h3></td><td><input type="text" name="ct_image_href_'+j+'" value="" /></td></tr><tr class="new"><td width="20%"  valign="middle"><h3>Text on images<span class="hasTip" style="cursor: pointer;color: #3B5998;" title="You can add text over the slider to be displayed in a text box.">[?]</span></h3></td><td><textarea name="ct_image_textarea_'+j+'"></textarea></td></tr>';
+			$("#add-image-line").before(tr);	
+			j++;
+			tb_remove();  
+		};
+		return false; 	
+	});
+	
+	
+	$(document).on("click" , ".update-button",  function(){
+		var i=$(this).parents("tr").next().attr("rel");
+		var button="update";
+		tb_show('', 'media-upload.php?type=image&amp;TB_iframe=true');  	
+	
+		window.send_to_editor = function(html) { 
+			updateurl = jQuery('img',html).attr('src'); 
+			$("#ct_image_link_"+i).attr('value',updateurl);
+			$("#ct_image_link_"+i).attr('name','ct_image_link_'+i);
+			$("tr[rel='"+i+"']").find("img").attr("src",updateurl);
+			tb_remove();  
+		};
+
+		return false; 	
+	});
+	
+
+	$(document).on("click" , ".remove-image",  function(){
+		$(this).parents("tr").next().next().next().remove();
+		$(this).parents("tr").next().next().remove();
+		$(this).parents("tr").next().remove();
+		$(this).parents("tr").remove();
+		return false;
+	});
+	
+});
+ 
+
+
+</script> 

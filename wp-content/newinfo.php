@@ -35,6 +35,7 @@
 			九大祭webサイトをリニューアルしました。<br><br>
 			新入生の皆様へ<br>
 			新歓ガイダンス情報を公開しました。<br>
+			新入生の皆さんは是非ご覧ください<br>
 			<a href="http://www.kyudaisai.jp/69thpre/forfreshman/" target="_top">詳細はコチラ</a><br>
 		</p>
 	</div>

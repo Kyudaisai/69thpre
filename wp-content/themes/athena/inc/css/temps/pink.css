@@ -22,7 +22,7 @@ ul.athena-nav > li.menu-item.current-menu-item a,
 ul.athena-nav > li.menu-item.current-menu-parent a,
 ul.athena-nav > li.menu-item a:hover{
     
-    border-bottom: 2px solid #CA4E9A;
+    /*border-bottom: 2px solid #CA4E9A;*/
 
 }
 

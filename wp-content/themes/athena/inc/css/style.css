@@ -365,14 +365,17 @@ ul.athena-nav > li.menu-item a{
     -webkit-transition: 0.2s all ease-in-out;
     letter-spacing: 2px;
     color: #fff;
-    
+    border-bottom: solid 2px #fff;
+    padding: 2px 7px;    
 }
 
 ul.athena-nav > li.menu-item.current-menu-item a,
 ul.athena-nav > li.menu-item.current-menu-parent a,
 ul.athena-nav > li.menu-item a:hover{
     
-    border-bottom: 2px solid #C74E9A;
+    border-radius: 6px;
+    color: #C74E9A;
+    background-color: #fff;
 
 }
 

@@ -26,6 +26,11 @@
 <body>
 	<div>
 		<p>
+			2016.4.7(木)<br>
+			新入生の皆様へ<br>
+			各局紹介を公開しました。各局の特徴や仕事内容の説明を掲載しておりますので、興味をお持ちの新入生の皆様は是非一度ご覧ください。<br>
+			<a href="http://www.kyudaisai.jp/69thpre/forfreshman/#part" target="_top">詳細はコチラ</a><br><br>
+			
 			2016.4.1(金)<br>
 			リンク<br>
 			各種リンクを公開しました。<br>
@@ -34,9 +39,8 @@
 			2016.3.8(火)<br>
 			九大祭webサイトをリニューアルしました。<br><br>
 			新入生の皆様へ<br>
-			新歓ガイダンス情報を公開しました。<br>
-			新入生の皆さんは是非ご覧ください<br>
-			<a href="http://www.kyudaisai.jp/69thpre/forfreshman/" target="_top">詳細はコチラ</a><br>
+			新歓ガイダンス情報を公開しました。新入生の皆さんは是非ご覧ください<br>
+			<a href="http://www.kyudaisai.jp/69thpre/forfreshman/#guidance" target="_top">詳細はコチラ</a><br>
 		</p>
 	</div>
 </body>

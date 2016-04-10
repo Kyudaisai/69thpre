@@ -313,6 +313,25 @@ table {
 td,
 th {
 	padding: 0;
+	border: solid 2px #BBBBBB;
+}
+
+.guidance-date{
+	border: solid 2px #BBBBBB;
+	width: 40%;
+	margin: 20px;
+	float: left;
+}
+@media screen and (max-width: 640px){
+	.guidance-date{
+	width:90%;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	}
+	.guidance-clear{
+		clear: both;
+		margin: 20px;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -476,6 +495,9 @@ img {
 }
 
 
+/*--------------------------------------------------------------------
+ about image
+----------------------------------------------------------------------*/
 .about_img{
 	display:block;
 	margin: 0 auto;
@@ -490,7 +512,10 @@ img {
 	display: none;
 }
 .momoka{
-	display: inline;
+	float: left;
+}
+.momoka:after{
+	clear: both;
 }
 @media screen and (max-width: 640px){
 	.about_img{
@@ -512,7 +537,9 @@ img {
 	margin-top: 10px;
 	}
 	.momoka{
+		float: none;
 		display: block;
+		margin: 0 auto;
 	}
 }
 

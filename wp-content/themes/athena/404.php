@@ -14,12 +14,12 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'athena' ); ?></h1>
+					<h1 class="page-title"><?php esc_html_e( 'ページが見つかりませんでした。', 'athena' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'athena' ); ?></p>
-
+					<p><?php esc_html_e( 'もう一度URLをお確かめ頂くか、メニューよりページを選択してご覧下さい。', 'athena' ); ?></p>
+<!------------------------------------------------------------------------
 					<?php get_search_form(); ?>
 
 					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
@@ -48,6 +48,7 @@ get_header(); ?>
 					?>
 
 					<?php the_widget( 'WP_Widget_Tag_Cloud' ); ?>
+-------------------------------------------------------------------------->
 
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->

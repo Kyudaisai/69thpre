@@ -43,6 +43,9 @@ define('DB_CHARSET', 'utf8mb4');
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define('DB_COLLATE', '');
 
+
+define('WP_SITEURL','http://www.kyudaisai.jp/69thpre');
+
 /**#@+
  * 認証用ユニークキー
  *

@@ -12,6 +12,7 @@
 	list-style: none;
 	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 	font-size: 14px;
+	background-image:url(http://localhost/wordpress/img/background.jpg);
 }
 	</style>
 	

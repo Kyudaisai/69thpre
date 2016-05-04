@@ -94,7 +94,7 @@ function sktweddinglite_customize_register( $wp_customize ) {
     <a href="#" target="_blank" class="fa fa-linkedin" title="linkedin"></a>
     <a href="#" target="_blank" class="fa fa-pinterest" title="linkedin"></a>
 </div><a class="more-button" href="#">About My <span>Family</span></a></div>','skt-wedding-lite'),
-			'sanitize_callback'	=> 'wptexturize'
+			'sanitize_callback'	=> 'wp_kses_post'
 	));
 	
 $wp_customize->add_control(
@@ -119,7 +119,7 @@ $wp_customize->add_control(
     <a href="#" target="_blank" class="fa fa-linkedin" title="linkedin"></a>
     <a href="#" target="_blank" class="fa fa-pinterest" title="linkedin"></a>
 </div><a class="more-button" href="#">About My <span>Family</span></a></div> ','skt-wedding-lite'),
-			'sanitize_callback'	=> 'wptexturize'
+			'sanitize_callback'	=> 'wp_kses_post'
 	));
 	
 $wp_customize->add_control(

@@ -19,7 +19,7 @@
  if ( get_header_image() ) : 	
 	echo '<style type="text/css">#header{background-image:url("';
 	echo esc_url(header_image());
-	echo '"); display: flex;background-repeat: round;}</style>';
+	echo '");     background-size: 100% 100%;}</style>';
 		 endif; 
 		
     }
@@ -74,7 +74,7 @@ function magazine_breadcrumbs() {
         $parentCat = get_category($thisCat->parent);
         if ($thisCat->parent != 0)
             echo(get_category_parents($parentCat, TRUE, ' ' . $delimiter . ' '));
-        echo $before . __('Archive by category "' . single_cat_title('', false) . '"', 'magazine') . $after;
+        echo $before . __('Archive by category', 'magazine') . single_cat_title('', false) . $after;
     } elseif (is_day()) {
         echo '<a href="' . get_year_link(get_the_time('Y')) . '">' . get_the_time('Y') . '</a> ' . $delimiter . ' ';
         echo '<a href="' . get_month_link(get_the_time('Y'), get_the_time('m')) . '">' . get_the_time('F') . '</a> ' . $delimiter . ' ';
@@ -117,9 +117,9 @@ function magazine_breadcrumbs() {
             echo $crumb . ' ' . $delimiter . ' ';
         echo $before . get_the_title() . $after;
     } elseif (is_search()) {
-        echo $before . __('Search results for "' . get_search_query() . '"','magazine') . $after;
+        echo $before . __('Search results for','magazine') . get_search_query() . $after;
     } elseif (is_tag()) {
-        echo $before . __('Posts tagged "' . single_tag_title('', false) . '"','magazine') . $after;
+        echo $before . __('Posts tagged','magazine') . single_tag_title('', false) . $after;
     } elseif (is_author()) {
         global $author;
         $userdata = get_userdata($author);

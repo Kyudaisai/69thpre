@@ -12,11 +12,18 @@ require get_template_directory() . '/includes/customizer.php';
 function magazine_scripts() {
 	wp_enqueue_style( 'magazine-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'magazine-font-awesome', get_stylesheet_directory_uri() . '/font-awesome/css/font-awesome.min.css' );
+		wp_enqueue_script('backscript', get_template_directory_uri().'/js/backscript.js', array('jquery'), '1.0', false );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
 	}
 add_action( 'wp_enqueue_scripts', 'magazine_scripts' );
-
+/**
+ * Enqueue script for custom customize control.
+ */
+function magazine_custom_customize_enqueue() {
+	wp_enqueue_style( 'customizer-css', get_stylesheet_directory_uri() . '/customizer-css.css' );
+}
+add_action( 'customize_controls_enqueue_scripts', 'magazine_custom_customize_enqueue' );
 
 	/*
 	* Home Icon for Menu
@@ -80,7 +87,14 @@ function magazine_theme_setup() {
 		add_theme_support( 'post-thumbnails' );
 	}	
 		add_image_size( 'defaultthumb', 270, 270 );
-
+		add_image_size( 'ltpostthumb', 65, 65, true );
+		/*
+		* Enable support for Post Formats.
+		* See http://codex.wordpress.org/Post_Formats
+		*/
+		add_theme_support( 'post-formats', array(
+			'aside', 'image', 'video', 'quote', 'link',
+		) );
 		/**
          * magazine translations.
          * Add your files into /languages/ directory.
@@ -103,6 +117,7 @@ function magazine_theme_setup() {
 		register_nav_menus(
 			array(
  				'magazine-navigation' => __('Navigation', 'magazine'),
+ 				'Footer-menu' => __('Footer Menu', 'magazine'),
 				)		
 		);
 		//woocommerce plugin support
@@ -113,8 +128,6 @@ function magazine_theme_setup() {
 		'default-color' => '#ffffff',
 		'default-image' => '',
 	) ) );
-		
-
 			
 global $content_width;
 if ( ! isset( $content_width ) ) {
@@ -157,7 +170,7 @@ if ( ! isset( $content_width ) ) {
  function magazine_search_form( $form ) {
 	$form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
 	<div><label class="screen-reader-text" for="s">' . __( 'Search for:','magazine' ) . '</label>
-	<input type="text" value="' . get_search_query() . '" name="s" id="s" />
+	<input type="text" placeholder="'.__('Search','magazine').'" value="' . get_search_query() . '" name="s" id="s" />
 	<input type="submit" id="searchsubmit" value="'. esc_attr__( 'Go','magazine' ) .'" />
 	</div>
 	</form>';
@@ -252,13 +265,13 @@ function magazine_comment_form_fields( $fields ) {
     $aria_req = ( $req ? " aria-required='true'" : '' );
     $html5    = current_theme_supports( 'html5', 'comment-form' ) ? 1 : 0;
     
-    $fields   =  array(
-        'author' => '<div class="large-6 columns"><div class="row collapse prefix-radius"><div class="small-3 columns">' . '<span class="prefix"><i class="fa fa-user"></i>' . __( 'Name','magazine' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</span> </div>' .
-                    '<div class="small-9 columns"><input class="form-control" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="20"' . $aria_req . ' /></div></div></div>',
-        'email'  => '<div class="large-6 columns"><div class="row collapse prefix-radius"><div class="small-3 columns">' . '<span class="prefix"><i class="fa fa-envelope-o"></i>' . __( 'Email','magazine' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</span></div> ' .
-                    '<div class="small-9 columns"><input class="form-control" id="email" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="20"' . $aria_req . ' /></div></div></div>',
-        'url'    => '<div class="large-6 columns"><div class="row collapse prefix-radius"><div class="small-3 columns">' . '<span class="prefix"><i class="fa fa-external-link"></i>' . __( 'Website','magazine' ) . '</span> </div>' .
-                    '<div class="small-9 columns"><input class="form-control" id="url" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></div></div></div>'        
+     $fields   =  array(
+        'author' => '<div class="large-6 columns"><div class="row collapse prefix-radius"><div class="small-2 columns">' . '<span class="prefix"><i class="fa fa-user"></i>' . ( $req ? ' <span class="required">*</span>' : '' ) . '</span> </div>' .
+                    '<div class="small-10 columns"><input class="form-control" placeholder="' . __('Name','magazine').'" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="20"' . $aria_req . ' /></div></div></div>',
+        'email'  => '<div class="large-6 columns"><div class="row collapse prefix-radius"><div class="small-2 columns">' . '<span class="prefix"><i class="fa fa-envelope-o"></i>' . ( $req ? ' <span class="required">*</span>' : '' ) . '</span></div> ' .
+                    '<div class="small-10 columns"><input class="form-control" placeholder="' . __('Email','magazine').'" id="email" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="20"' . $aria_req . ' /></div></div></div>',
+        'url'    => '<div class="large-6 columns"><div class="row collapse prefix-radius"><div class="small-2 columns">' . '<span class="prefix"><i class="fa fa-external-link"></i>' . '</span> </div>' .
+                    '<div class="small-10 columns"><input class="form-control" placeholder="' . __('Website','magazine').'" id="url" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></div></div></div>'        
     );
     
     return $fields;

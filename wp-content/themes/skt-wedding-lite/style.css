@@ -5,7 +5,7 @@ Author: SKT Themes
 Author URI: http://www.sktthemes.net
 Description: SKT Wedding Lite is a wedding WordPress theme which caters to marriage, engagement, personal, business and photography or photographer type of clients. It can also be used for other purposes like girlie or feminine websites or blogs. Can also be used for photo studio, portfolio or gallery websites. Is compatible with Woocommerce, Nextgen gallery and contact form 7. Is multilingual theme and is compatible with qTranslate X. Demo Link: http://sktthemesdemo.net/wedding/
 
-Version: 1.4
+Version: 1.5
 License: GNU General Public License
 License URI: license.txt
 Text Domain: skt-wedding-lite
@@ -36,6 +36,8 @@ h6{ font-size:14px;}
 .alignnone{ width:100% !important;}
 img.alignleft, .alignleft{ float:left; margin:0 15px 0 0; padding:5px; border:1px solid #cccccc;}
 img.alignright, .alignright{ float:right; margin:0 0 0 15px; padding:5px; border:1px solid #cccccc;}
+img.aligncenter, .aligncenter{ text-align:center; display:block; margin: 0 auto 20px; padding:5px; border:1px solid #cccccc;}
+
 .left{ float:left;}
 .right{ float:right;}
 .space10{clear:both; height:10px;}
@@ -148,8 +150,8 @@ a.more-button:hover{background-color:#d5d5d5;}
 aside.widget{margin-bottom:30px; background-color:#f6f4f4; padding:20px; border:1px solid #edecec;}
 aside.widget ul{ list-style:disc; }
 h3.widget-title{ background-color:#c34370; padding:12px 15px; margin-bottom:1px; color:#fff;}
-#sidebar ul li{ list-style:none;}
-#sidebar ul li a{ font:300 14px/18px "Roboto Condensed",sans-serif; background:url(images/sidebar-arrow.png) no-repeat 0 14px; padding:10px 0 10px 20px; color:#3b3b3b; border-bottom:1px dashed #d0cfcf; display:block; word-wrap:break-word;}
+#sidebar ul li{list-style:none; border-bottom:1px dashed #d0cfcf; display:block; padding:10px 0;}
+#sidebar ul li a{ font:300 14px/18px "Roboto Condensed",sans-serif; background:url(images/sidebar-arrow.png) no-repeat 0 14px; padding:10px 0 10px 20px; color:#3b3b3b; word-wrap:break-word;}
 #sidebar ul li a:hover{ color:#34c6f6;}
 #sidebar ul li:last-child a{ border:none;}
 
@@ -216,3 +218,12 @@ h1.screen-reader-text{font:22px 'Roboto Condensed',san-serif;}
 h3#reply-title{font:300 18px 'Roboto Condensed',san-serif;}
 #comments{ margin:30px 0 0; padding:0;}
 nav#nav-below{ margin-top:15px;}
+
+#sidebar table{width:100%; text-align:center;}
+#prev{text-align:left;}
+#next{text-align:right;}
+#sidebar select{width:100%; height:30px;}
+.recentcomments a{background:none !important;}
+#sidebar a{word-wrap:break-word;} 
+#sidebar h3 a{color:#FFF;}
+#sidebar input[type="search"]{width:100%; margin-bottom:10px; height:30px;}

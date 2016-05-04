@@ -1,0 +1,168 @@
+-- MySQL dump 10.13  Distrib 5.6.22, for Linux (i686)
+--
+-- Host: localhost    Database: kyudaisai
+-- ------------------------------------------------------
+-- Server version	5.6.22-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `LoginPassword`
+--
+
+DROP TABLE IF EXISTS `LoginPassword`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `LoginPassword` (
+  `ID` text CHARACTER SET utf8 NOT NULL,
+  `Password` text CHARACTER SET utf8 NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=ujis;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `LoginPassword`
+--
+
+LOCK TABLES `LoginPassword` WRITE;
+/*!40000 ALTER TABLE `LoginPassword` DISABLE KEYS */;
+INSERT INTO `LoginPassword` VALUES ('info68@kyudaisai.jp','Q-d@is@i-141421356');
+/*!40000 ALTER TABLE `LoginPassword` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `blog`
+--
+
+DROP TABLE IF EXISTS `blog`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `blog` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ID',
+  `name` text CHARACTER SET utf8 NOT NULL COMMENT '作成者',
+  `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '作成時間',
+  `subject` text CHARACTER SET utf8 NOT NULL COMMENT '題名',
+  `mode` text CHARACTER SET utf8 NOT NULL COMMENT 'テキストのモード',
+  `article` longtext CHARACTER SET utf8 NOT NULL COMMENT '記事の内容',
+  `show` text CHARACTER SET utf8 NOT NULL COMMENT '表示設定',
+  KEY `ID` (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=ujis COMMENT='ブログのデータベース';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `blog`
+--
+
+LOCK TABLES `blog` WRITE;
+/*!40000 ALTER TABLE `blog` DISABLE KEYS */;
+INSERT INTO `blog` VALUES (1,'江熊 夕人','2015-04-01 14:39:40','テスト','html','ブログ投稿フォームを作成しました。<br>\r\n<a href=\"http://kyudaisai.jp/68th/forstaff/\">こちら</a>です<br>\r\nだるいのでデザインはしません。<br>\r\n書きたい人は練習なりなんなりしてください<br>','no'),(2,'しゅーと','2015-04-04 07:49:45','たまひよに参加してきました','html','どうも！初めまして!<br>\r\nしゅーと</span>です<br>\r\n第68回九大祭実行委員会スタッフレポート始めました！<br>\r\n<br>\r\n今日は<span style=\"color:blue; font-size 20px\">ムッチ</span>と一緒にそしき部さんが行っている<span style=\"color : orange; font-size: 20px\">たまひよ</span>に参加してきました<br>\r\nあっという間の５分でした～\r\n\r\n<br>\r\nそしき部の皆さん、大変お世話になりました。ありがとうございます！<br>\r\n<br>\r\n新入生の皆さんで九大祭実行委員会に興味を持ってくれた方、<span style=\"color:red; font-size: 20px\">是非新歓ガイダンスにいらしてください！</span><br>\r\n実行委員一同お待ちしております！<br>\r\n<br>\r\n<img src=\"img/tamahiyo_presentation.jpg\" width=\"50%\" alt=\"たまひよの写真\" />\r\n','yes'),(17,'りゅーせい','2015-06-13 05:51:37','第７回定例会','html','こんにちは！初投稿のりゅーせいです(｡･ω･)ﾉ\r\nあ、総務局の１年生です！\r\n\r\n今日は第７回定例会がありました〜\r\n九大祭本番まではまだまだ先ですが、各局少しずつ運営に向けて動き始めたようです！\r\n\r\nところで今日は総務局長のD先輩がまさかの欠席をしまして...\r\nしかも総務局一人だったので\r\n総務局として何すれば良いのかわからずほんと困りました(・ε・)ﾑｰ\r\nまぁ、その分頼れる実行委員長と副委員長の先輩に助けていただきながら\r\nなんとか仕事をすることができました！\r\nほんとありがたかったです！\r\n\r\n冷房がつかない学祭室は暑くて大変ですが\r\n九大祭実行委員一同、九大祭が成功するように頑張っていきたいです(o^∇^o)ﾉ','yes'),(4,'みさきっちょ','2015-04-08 08:36:26','新歓準備なう！','html','こんにちは！はじめまして！<br>\r\nみさきっちょです(*^o^*)<br>\r\n<br>\r\n今しゅーと君とくまさんと一緒に<br>\r\n新歓ガイダンスに向けて準備をしています(^^)<br>\r\n<br>\r\n新入生のみなさん、九大祭実行委員会のビラは<br>\r\nもう受け取りましたか？？<br>\r\n<br>\r\nこれからも昼休みなどに配布する予定なので<br>\r\nぜひぜひ受け取ってください！<br>\r\n<br>\r\nそして新歓ガイダンスにきてください！！<br>\r\n<br>\r\n学祭室で待ってます♡<br>\r\n<br>\r\n<img src=\"img/S__11411532.jpg\" style=\"max-width: 100%; width: 480px;\" />\r\n\r\n','yes'),(5,'くまさん','2015-04-10 14:55:30','掃除した話','html','<style>\r\n.picture{\r\nwidth:50%;\r\nmax-width:600px;\r\n}\r\n</style>\r\n<p style=\"text-align: center;\">\r\n<span style=\"font-size: 10px\">\r\nこのスタッフレポート読んでくれるひと<br>\r\nいるのかな...<br>\r\n3日もかけて作ったんだぜこのページ...<br>\r\n</span>\r\n<br>\r\nどーも初投稿のくまさんです。<br>\r\n<br>\r\n今日なんとなーく学祭室にきたら<br>\r\n副委員長に無理やり掃除を手伝わされました...<br>\r\n<br>\r\n机を片側につめて、<br>\r\n<br>\r\n<img src=\"img/desk1.jpg\" class=\"picture\" /><br>\r\n<br>\r\nほうきで掃いて<br>\r\n<br>\r\n<img src=\"img/houki1.jpg\" class=\"picture\" /><br>\r\n<br>\r\n雑巾掛け<br>\r\n<br>\r\n<img src=\"img/zoukin1.jpg\" class=\"picture\" /><br>\r\n<br>\r\nしました。<br>\r\n<br>\r\n<br>\r\n<span style=\"font-size: 24px; color: red\">小学生か！！</span><br>\r\n小学生以来ですよこんな掃除したの！<br>\r\nおかげで、<span style=\"font-size:20px; color: blue\">ももと背中が筋肉痛</span>です。<br>\r\n<br>\r\n<br>\r\nでもなんでこんなことしてるかって、<br>\r\nこのスタッフレポートを読んでいる<br>\r\n<span style=\"color: red; font-size:24px;\">あなたを九大祭実行委員会に歓迎するためです！！！</span><br>\r\n<br>\r\nと、いうわけで...<br>\r\n<br>\r\n<span style=\"color: red; font-size:28px;\">新入生歓迎ガイダンスを行います！！</span><br>\r\n新入生はもちろん、九大祭の運営に興味のある方は是非ご参加下さい！！<br>\r\n<br>\r\n詳しくは、<a href=\"../forfreshman/\">こちら</a><br>\r\n<br>\r\nまた、<br>\r\n「日程が合わなくていけないよ〜...」とか、<br>\r\n「ローソンってどこ〜...」とか、<br>\r\nいろいろわからないことがあれば、<a href=\"../contact/\">こちら</a>まで。<br>\r\n<br>\r\nさらに、<br>\r\n<span style=\"color: pink; font-size:24px;\">僕は！私は！<br>今すぐ九大祭を<br>盛り上げたいんだ！！</span><br>\r\nみたいな熱い方は、<br>\r\n<a href=\"../contact/\">こちら</a>のお問い合わせフォームにて熱い思いをぶちまけてください！<br>\r\n<br>\r\n<br>\r\n<span style=\"color:orange\">それではみなさんのご参加を、実行委員一同お待ちしております！！</span><br></p>','yes'),(6,'すなぴー','2015-04-13 11:55:59','ガイダンス初日！','text','こんばんは！Staff Report初投稿に少々てこずってます、すなぴーです。\r\n\r\n今日は、今年度初めてのガイダンスを行いました！\r\n\r\nなんと…、22人の新入生が来てくれましたー！わーい*\\(^o^)/*\r\n\r\n実行委員会の紹介をした後、みんなで学食を食べに行きました！\r\n学祭のこと以外にもいろいろなお話ができて楽しかったです◎\r\n\r\nなかには、もう実行委員になることを決めてくれた新入生もいて嬉しかったです(^ ^)\r\n\r\n今日来てくれた新入生の皆さん、ありがとうございました！\r\n\r\n\r\n九大祭実行委員会は、まだまだ新しい仲間を募集しています。\r\n今週は、16日（木）にガイダンスを行うので是非足を運んできてください！\r\n\r\n\r\nそれでは、おやすみなさい…\r\n','yes'),(8,'しゅーと','2015-04-28 12:57:11','新歓ガイダンスについて','text','いくつかお問い合わせがありましたが、実行委員会に入会するのに必ずしもガイダンスに参加する必要はありません。\r\n\r\nただ、今後も5月8日、15日(金)にガイダンスを行う予定ですので、都合がつくようでしたらぜひ参加していただければと思います。\r\n参加される場合は、当日16:30にローソン前にいらしてください。\r\n\r\nまた両日とも都合がつかない場合は、個別で対応することもできます。\r\nその場合はお問い合わせフォームで都合のつく日をお知らせください。\r\n\r\nお問い合わせフォームにメールアドレスを入力するときは、\r\n必ず間違いがないかご確認ください。\r\n','no'),(9,'みさきっちょ','2015-05-01 14:38:40','新入生歓迎企画(^^)','text','こんばんは！お久しぶりです！\nみさきっちょ2回目の投稿です(*^o^*)\n\n昨日は新入生歓迎企画を実施しました！！\nその名も\n「生物多様性保全ゾーンで交流しよう！」\n19人の人が参加してくれました。\n3つのミッションをクリアして点数を獲得する\nグループ対抗のゲームを考えました！\n\n<img src=\"img/169453.jpg\" /style=\"width:50%\" />\n\n楽しんでもらえたかな？？\n優勝したチームのみなさんおめでとうございました(^^)\n\n\n\nちなみに何度か下見をして\nみんなで話し合って計画を練りました！\n前日の下見には私も参加しましたが、\nとても楽しかったです♪( ´▽｀)\n\n何かを企画して実行するのは、\n大変なことももちろんありますが\n終わったら大きな達成感が得られます！\n無事に成功してよかった！！*\\(^o^)/*\n','yes'),(10,'やぁさん','2015-05-16 08:58:58','全新歓ガイダンス終了！','text','こんにちは！初投稿のやぁさんです！\r\n\r\n昨日で、全ての新歓ガイダンスが終了しました！来てくれたみなさん、ありがとうございます(^^)\r\n委員になることが決定したみなさんは、これからよろしくお願いします！\r\n\r\n第68回九大祭が成功するよう、実行委員一同頑張ります！！\r\n\r\n日程が合わずガイダンスに参加できなかった方も、気軽にお問い合わせしてくださいね☆\r\nお問い合わせフォームは<a href=\"../contact/index.php#form\">こちら</a>。\r\n\r\nそれでは！','yes'),(18,'aaa','2015-06-13 06:21:35','aaa','html','aaaa','no'),(19,'くまがわ','2015-07-11 13:04:06','第一回企画説明会！！！！','text','こんばんは、くまがわです。\r\n\r\n7月9日と本日7月11日に第一回企画説明会が行われました。\r\nのべ300人近くの方に来ていただきました。\r\nお忙しい中、本当にありがとうございました。\r\n\r\n突然会場や開始時間を変更してしまい、各団体の皆さまには多大な迷惑をおかけしました。申し訳ありませんでした。\r\n至らぬところはありましたが、大きな問題もなく説明会を終えることができて本当によかったです。\r\n\r\n九大祭への参加を考えているみなさんは、\r\nテスト期間に入る前に企画内容を考えて出来るだけ早く参加企画書を提出するようにしましょう！\r\n単位を取った上で祭を楽しむのが九大祭です！\r\n\r\n企画参加について分からないことがあれば、実行委員の方に気軽にメールしてください！\r\nまた、今回の説明会の内容の他にも様々な九大祭情報がこの九大祭Webページには掲載されています！\r\nこの記事を見てる人は、そっとトップページをブックマークしましょう！\r\n\r\n繰り返しになりますが、\r\n今回の企画説明会に参加してくださった方、本当にありがとうございました。\r\n今後ともよろしくお願いします。\r\n\r\n実行委員のみんなもお疲れ様でした。\r\n当日の運営の手伝いやビラ配りなどの広報活動、すごく助かりました。\r\nこれからどの局も大変になってくるだろうけど、気合と根性で頑張ろうな','yes');
+/*!40000 ALTER TABLE `blog` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `lost`
+--
+
+DROP TABLE IF EXISTS `lost`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `lost` (
+  `tagId` int(11) NOT NULL AUTO_INCREMENT,
+  `lostName` char(140) DEFAULT NULL,
+  `features` char(140) DEFAULT NULL,
+  `imagePath` char(140) DEFAULT NULL,
+  `place` char(140) DEFAULT NULL,
+  `findTimeD` int(11) DEFAULT NULL,
+  `findTimeH` int(11) DEFAULT NULL,
+  `findTimeM` int(11) DEFAULT NULL,
+  `recieveTimeD` int(11) DEFAULT NULL,
+  `recieveTimeH` int(11) DEFAULT NULL,
+  `recieveTimeM` int(11) DEFAULT NULL,
+  `acceptance` char(140) DEFAULT NULL,
+  `returnCheck` tinyint(1) DEFAULT '0',
+  KEY `tagId` (`tagId`)
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `lost`
+--
+
+LOCK TABLES `lost` WRITE;
+/*!40000 ALTER TABLE `lost` DISABLE KEYS */;
+INSERT INTO `lost` VALUES (1,'単位','伊都に忘れてきました。','lostImage/スクリーンショット 2015-07-31 1.46.40.png','伊都キャンパスセンターゾーン',20,6,0,20,6,0,'タクシー',0),(2,'aaaa','cccc','lostImage/','aaa',20,6,0,20,6,0,'e',1),(3,'kkk','lll','lostImage/images.jpg','lll',21,17,5,22,20,16,'lllll',1),(4,'財布','学祭室にあった','lostImage/8819598.jpg','学祭室',20,6,0,20,6,0,'江熊',0),(5,'ジャンプ','2015年49号','lostImage/image.jpeg','学祭室',20,6,0,20,6,0,'江熊',0),(6,'マグカップ','黒\r\nジュラシックパーク','lostImage/image.jpeg','学祭室',20,6,0,20,6,0,'江熊',0),(7,'あ','あ','lostImage//virtual/kyudaisai/public_html/forstaff/lost/lostImage/','',20,6,0,20,6,0,'江熊',0),(8,'あ','あ','lostImage/image.jpeg','',20,6,0,20,6,0,'江熊',0),(9,'あ','あ','lostImage//virtual/kyudaisai/public_html/forstaff/lost/lostImage/jpeg','',20,6,0,20,6,0,'江熊',0),(10,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(11,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(12,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(13,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(14,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(15,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(16,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(17,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(18,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(19,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(20,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(21,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(22,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(23,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(24,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(25,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(26,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(27,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(28,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(29,'あ','あ','','',20,6,0,20,6,0,'江熊',0),(30,'aaa','','','',20,6,0,20,6,0,'a',0),(31,'aaa','','','',20,6,0,20,6,0,'a',0),(32,'aaa','','','',20,6,0,20,6,0,'a',0),(33,'aaa','','','',20,6,0,20,6,0,'a',1),(34,'aaa','','','',20,6,0,20,6,0,'a',0),(35,'aaa','','','',20,6,0,20,6,0,'a',0),(36,'aaa','','','',20,6,0,20,6,0,'a',0),(37,'aaa','','','',20,6,0,20,6,0,'a',0),(38,'aaa','','','',20,6,0,20,6,0,'a',0),(39,'aaa','','lostImage/picture39.jpg','',20,6,0,20,6,0,'a',0);
+/*!40000 ALTER TABLE `lost` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tweet_day`
+--
+
+DROP TABLE IF EXISTS `tweet_day`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tweet_day` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `check` tinyint(4) NOT NULL,
+  `hour` int(11) NOT NULL,
+  `minute` int(11) NOT NULL,
+  `text` text CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=29 DEFAULT CHARSET=ujis;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tweet_day`
+--
+
+LOCK TABLES `tweet_day` WRITE;
+/*!40000 ALTER TABLE `tweet_day` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tweet_day` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tweet_reserve`
+--
+
+DROP TABLE IF EXISTS `tweet_reserve`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tweet_reserve` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `check` tinyint(4) NOT NULL,
+  `month` int(11) NOT NULL,
+  `day` int(11) NOT NULL,
+  `hour` int(11) NOT NULL,
+  `minute` int(11) NOT NULL,
+  `text` text CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=ujis;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tweet_reserve`
+--
+
+LOCK TABLES `tweet_reserve` WRITE;
+/*!40000 ALTER TABLE `tweet_reserve` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tweet_reserve` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2015-11-05 15:21:30

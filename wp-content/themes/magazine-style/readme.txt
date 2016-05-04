@@ -30,6 +30,17 @@ Custom Css:
 
 == Change log ==
 
+= 1.6.6 =
+* Added arabic traslation
+* Added website width control
+
+= 1.6.1 =
+* bbPress Support fixed
+* Background image support added
+* Search input box fix
+* Screenshot updated
+* Latest post fonts and thumbnail changes
+
 = 1.6 =
 * Added font awesome support
 * Maximum website width to 1350px

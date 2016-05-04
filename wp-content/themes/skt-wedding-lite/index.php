@@ -55,7 +55,7 @@ get_header();
                        <h2 class="section_title"><?php esc_attr_e('Request the honour of your presence at their marriage','skt-wedding-lite');?></h2> 
 						<?php } ?>
                       <?php if( get_theme_mod('column_first') ) { ?>
-                           <?php echo esc_attr(get_theme_mod('column_first')); ?>
+                           <?php echo wp_kses_post((get_theme_mod('column_first'))); ?>
                       <?php } else { ?>                      
                       <?php echo '<div class="one_half"><h4>Nick <span>Jackson</span></h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel ligula nisi. Vestibulum a magna auctor, tristique sapien et, tempus velit. Proin feugiat dui ac egestas aliquet. In erat arcu, accumsan mollis tincidunt quis, venenatis ut massa. Duis aliquet auctor dui id placerat. Aenean euismod semper ante adipiscing molestie.</p>
@@ -68,7 +68,7 @@ get_header();
 </div><a class="more-button" href="#">About My <span>Family</span></a></div>'; } ?>
 
 <?php if( get_theme_mod('column_second') ) { ?>
-                           <?php echo esc_attr(get_theme_mod('column_second')); ?>
+                           <?php echo wp_kses_post((get_theme_mod('column_second'))); ?>
                       <?php } else { ?>                      
                       <?php echo '<div class="one_half last_column"><h4>Nick <span>Jackson</span></h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel ligula nisi. Vestibulum a magna auctor, tristique sapien et, tempus velit. Proin feugiat dui ac egestas aliquet. In erat arcu, accumsan mollis tincidunt quis, venenatis ut massa. Duis aliquet auctor dui id placerat. Aenean euismod semper ante adipiscing molestie.</p>

@@ -20,7 +20,8 @@
 
 	<div id="footer">
 	<div id="footer-inner" class="clearfix">
-		<a href="<?php echo esc_url(home_url('/'));?>" title="<?php bloginfo('name');?>" ><?php bloginfo('name');?></a> <?php _e('Copyright &#169;', 'magazine'); ?>  <?php echo date('Y');?> | <?php _e('Theme:', 'magazine'); ?> <a href="<?php echo esc_url( __( 'http://www.insertcart.com/magazine-style', 'magazine' ) ); ?>" title="<?php esc_attr_e( 'Magazine Style', 'magazine' ); ?>"><strong><?php printf( __( 'Magazine Style %s', 'magazine' ),''); ?></strong></a> <?php _e('Powered by', 'magazine'); ?> <a href="http://wordpress.org/"><?php _e('WordPress', 'magazine'); ?></a> <a class="backtop" href="#top">  <?php _e('&#8593;', 'magazine'); ?></a>
+		<a href="<?php echo esc_url(home_url('/'));?>" title="<?php bloginfo('name');?>" ><?php bloginfo('name');?></a> <?php _e('Copyright &#169;', 'magazine'); ?>  <?php echo date('Y');?> | <?php _e('Theme:', 'magazine'); ?> <a href="<?php echo esc_url( __( 'http://www.insertcart.com/product/magazine-style-wp-theme/', 'magazine' ) ); ?>" title="<?php esc_attr_e( 'Magazine Style', 'magazine' ); ?>"><strong><?php printf( __( 'Magazine Style %s', 'magazine' ),''); ?></strong></a> <?php _e('Powered by', 'magazine'); ?> <a href="http://wordpress.org/"><?php _e('WordPress', 'magazine'); ?></a> <a href="#" class="scrollup backtop"><?php _e('&#8593;', 'magazine'); ?><a>
+	<?php wp_nav_menu( array( 'theme_location' => 'footer-menu','container_class' => '','menu_id' => 'footerhorizontal',    'echo' => true,'after' =>'|','depth' =>'1','fallback_cb' => false ) ); ?>
 
 		</div> <!-- end div #footer-right -->
 	</div> <!-- end div #footer-inner -->

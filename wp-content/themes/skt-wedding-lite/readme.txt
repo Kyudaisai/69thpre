@@ -4,8 +4,8 @@
 
 Theme Name      :   SKT Wedding Lite
 Theme URI       :   http://www.sktthemes.net/themes/wedding-lite/
-Version         :   1.4
-Tested up to    :   WP 4.3.1
+Version         :   1.5
+Tested up to    :   WP 4.4.2
 Author          :   SKT Themes
 Author URI      :   http://www.sktthemes.net/
 

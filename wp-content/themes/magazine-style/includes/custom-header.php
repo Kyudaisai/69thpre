@@ -27,7 +27,7 @@ function magazine_custom_header_setup() {
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1350,
-		'height'                 => 140,
+		'height'                 => 165,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'magazine_header_style',
 		'admin-head-callback'    => 'magazine_admin_header_style',

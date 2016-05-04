@@ -2,16 +2,16 @@
 Theme Name: Magazine Style
 Theme URI: http://www.wrock.org/magazine-style-wordpress-theme/
 Description: Magazine Style Theme is best WordPress theme design for personal and business With full features and SEO Optimize. Magazine WordPress Theme easily adapts on your mobile and desktop or any other device. Theme with lots of customization and connect social media like Facebook, Google+, twitter, pinterest, rss, Skype, vimeo, dribble, flickr, LinkedIn, YouTube and Adsense ready, WooCommerce supported It supports all the awesome WordPress features completely free theme works also for blogging. For demo http://demo.baztro.com/magazine-style/
-Version: 1.6.1
-Author: Sandy
+Version: 1.6.6
+Author: Insertcart.com
 Author URI: http://www.insertcart.com
 Tags: black, blue, white, orange, editor-style, light, custom-menu, custom-header, custom-background, one-column, two-columns, right-sidebar, theme-options, threaded-comments, sticky-post, featured-images, responsive-layout 
 Text Domain: magazine
 License: GNU General Public License v2
 License URI: license.txt
-Copyright (C) 2015 BazTro, This program is distributed free, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+Copyright (C) 2016 BazTro, This program is distributed free, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Magazine Style WordPress theme, Copyright (C) 2015 Insertcart.com
+Magazine Style WordPress theme, Copyright (C) 2016 Insertcart.com
 Magazine Style WordPress theme is licensed under the GPL.
 
 */
@@ -67,6 +67,15 @@ body {
 	word-wrap: break-word;
 	margin: auto !important;
 }
+#page-inner,
+#navigation-inner,
+#bottom-menu,
+#header{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+	position: relative;
+	}
 a {
 	color: #2D89A7;
 	text-decoration: none;
@@ -358,9 +367,6 @@ img, img a {
 	z-index: 500;
 }
 #navigation-inner {
-	margin: 0 auto;
-	width: 90%;
-	max-width: 1350px;
 	position: relative;
 	border-bottom: 4px solid;
 	border-color: #FD4326;
@@ -368,7 +374,6 @@ img, img a {
 #navigation .secondary{
 	background: #333;
 	border-top-right-radius: 2px;
-	margin-bottom: 5px;
 	border-top-left-radius: 2px;
 }
 #navigation  ul {
@@ -379,14 +384,13 @@ img, img a {
 	border-bottom: 0;
 	text-align: center;
 }
-#navigation  ul a {
+#navigation ul a{
 	position: relative;
 	display: block;
 	padding: 0 18px;
 	height: 35px;
 	line-height: 48px;
 	color: #fff;
-	text-transform:uppercase;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -429,13 +433,14 @@ text-align: left;
 border-right: none;} 
 #navigation .secondary ul ul a{height: auto;}
 #navigation  ul ul a:hover {opacity: 1;}
-#navigation  ul ul ul {border-top:0;margin: -50px 0 0 212px;}
+#navigation ul ul ul{border-top:0;margin: -40px 0 0 212px;}
 #navigation  ul li li  { margin:0;border:0;}
 #navigation  ul li:hover { opacity: 1;position:static;}
 #navigation  ul li:hover ul ul, #navigation  ul li:hover ul ul ul, #navigation  ul li:hover ul ul ul ul { left:-999em; }
 #navigation  ul li:hover ul, #navigation  ul li li:hover ul,#navigation  ul li li li:hover ul,#navigation  ul li li li li:hover ul { left:auto; }
 .nav li > a:after {
     content: ' \25BC';
+	    font-size: 0.71rem;
 }
 
 .nav li > a:hover:after {
@@ -473,10 +478,7 @@ border-right: none;}
 	background: transparent;
 	position: relative;
 	z-index: 100;
-	margin: 0 auto;
-	width: 90%;
-	max-width: 1350px;
-	min-height:146px;
+	min-height:165px;
 	
 }
 #header-inner {
@@ -531,17 +533,25 @@ color:#333;
 	position: relative;
 	z-index: 1;
 }
-#page-inner {
-	margin: 0 auto;
-	width: 90%;
-	max-width: 1350px;
-	position: relative;
-	
-	
-}
+
 #page-inner #banner-top{
 	margin: 10px 0px 10px 0px;
 	position: relative;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs .description_tab:before{
+    content: "\f0c9";
+    font: normal normal normal 14px/1 FontAwesome;
+    left: 14px;
+    top: 14px;}
+	.woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+    padding: 9px 8px 9px 15px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs .reviews_tab:before {
+    content: "\f0e5";
+    font: normal normal normal 14px/1 FontAwesome;
+    left: 9px;
+    top: 12px;
+    font-size: 1rem;
 }
 .woocommerce-page span.postmeta_box{
 	display:none;
@@ -562,7 +572,6 @@ box-shadow: 0 1px 3px 0 #B5B5B5;
 border: 1px solid #DDD;
 }
 .pagepost {
-float: left;
 max-width: 99%;
 margin: 1%;
 }
@@ -578,7 +587,9 @@ margin: 1%;
 	-webkit-box-shadow: 0 1px 3px 0 #B5B5B5;
 	border: 1px solid #DDD;
 }
-
+#bbpress-forums div.wp-editor-container{
+    border: 1px solid #ddd;
+}
 /* ===================== post-slider ===================== */
 .post-slider {
 	color: #ddd;
@@ -631,6 +642,7 @@ form#searchform input#s {
 	padding: 0px 0px 0px 9px;
 	width: 204px;
 	float: left;
+	height: 37px;
 }
 #searchform label {
 	position:absolute;
@@ -659,10 +671,9 @@ form#searchform input#s {
 }
 .post .thumbnail img {
 	background: #fff;
-	padding: 0;
-	border: 7px solid #f5f5f5;
-	max-width: 160px;
-	max-height: 160px;
+    padding: 4px;
+    border: 1px solid #B3AEAE;
+    max-width: 200px;
 }
 
 .post h1 {
@@ -747,6 +758,16 @@ tbody{
 	padding: 10px;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
+}
+.nav-previous a::before {
+	content: "\f060";
+	font-family:FontAwesome;
+	padding:5px;
+}
+.nav-next a::after {
+    content: "\f061";
+	font-family:FontAwesome;
+	padding:5px;
 }
 .nav-previous {
 	float: left;
@@ -906,7 +927,6 @@ ul.spicesocialwidget li.youtube a:hover, #sidebar ul.spicesocialwidget li.youtub
 	padding: 0;
 	margin: 0 0 20px;
 }
-#sidebar .home-icon{display:none;}
 #sidebar .boxinside {
 	padding: 0px 0px 10px 10px;
 clear: both;
@@ -965,7 +985,7 @@ max-width: 95%;
 	font-weight: bold;
 	font-size: 17px;
 	border-bottom: 5px solid #FD4326;
-	padding: 4%;
+	padding: 4% 7%;
 }
 }
 #sidebar h4 a:hover {
@@ -1030,13 +1050,15 @@ max-width: 95%;
 }
 .latest-post a {
 	float: none;
+	    font-size: 0.9rem;
+    font-weight: bold;
+    color: #7B7B7B;
 }
 .latest-post img {
 	float: left;
 	padding: 2px;
 	border: 1px solid #dedbd1;
-	height: 45px;
-	width: 45px;
+	max-width: 65px;
 	margin: 2px 12px 4px 0;
 }
 .latest-post .clear {
@@ -1083,32 +1105,7 @@ max-width: 95%;
 	padding: 0;
 	background: #359BED;
 }
-ul.tabs {
-	margin: 0;
-	padding: 0;
-	float: left;
-	list-style: none;
-	width: 100%;
-}
-ul.tabs li {
-	background: #359BED;
-	width: 83px;
-	height: 22px;
-	float: left;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	position: relative;
-	background:#359BED;
-}
-ul.tabs li a {
-	background: #359BED;
-	text-decoration: none;
-	display: block;
-	padding: 0 0 1px;
-	outline: none;
-	text-align: center;
-}
+
 #sidebartabs h4, #sidebartabs h4 a {
 	margin: 0 0 10px;
 	padding: 0;
@@ -1140,6 +1137,11 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
 	background: #f5f5f5;
 }
 /* ===================== bottom-menu ===================== */
+#footerhorizontal ul {margin: 5px; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#footerhorizontal li {display: inline; }
+#footerhorizontal ul li a {text-decoration:none;margin: 4px;font-size: 0.8rem;}
+#footerhorizontal li::after{content: "\007c";}
  #footerads{
 	padding:30px;
 }
@@ -1148,8 +1150,6 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
 list-style-type: none;
 margin: 0 auto;
 padding-bottom: 10px;
-width: 90%;
-max-width: 1350px;
 overflow: hidden;
 padding-top: 15px;
 }
@@ -1307,11 +1307,11 @@ box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 	float: left;
 	position: relative;
 }
-.small-3{
-	    width: 25%;
+.small-2{
+	    width: 20%;
 }
-.small-9{
-	    width: 75%;
+.small-10{
+	    width: 80%;
 }
 .column + .column:last-child, .columns + .column:last-child, .column + .columns:last-child, .columns + .columns:last-child{
 float:right;
@@ -1380,6 +1380,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     content: " ";
     display: table;
 }	
+a.comment-reply-link::before{
+    content: "\f112";
+	font-family:FontAwesome;
+	    padding: 4px;
+}
 #commentform > p.comment-form-comment > label:before {
  content: "\f0e5";
 	font: normal normal normal 14px/1 FontAwesome;
@@ -1418,6 +1423,7 @@ ol.commentlist {
 	list-style:none;
 	margin:0 0 1em;
 	padding:0;
+	clear:both;
 	text-indent:0;
 }
 ol.commentlist li.comment {
@@ -1737,4 +1743,11 @@ a img.aligncenter {
 	top: 5px;
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
+}
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
 }

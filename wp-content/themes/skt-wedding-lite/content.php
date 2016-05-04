@@ -21,7 +21,7 @@
         <?php if ( is_search() || !is_single() ) : // Only display Excerpts for Search ?>
         <div class="entry-summary">
            	<?php the_excerpt(); ?>
-            <p class="read-more"><a href="<?php the_permalink(); ?>"><?php _esc_html_e('Read More &raquo;','skt-wedding-lite'); ?></a></p>
+            <p class="read-more"><a href="<?php the_permalink(); ?>"><?php esc_html_e('Read More &raquo;','skt-wedding-lite'); ?></a></p>
         </div><!-- .entry-summary -->
         <?php else : ?>
         <div class="entry-content">

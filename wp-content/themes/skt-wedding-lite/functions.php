@@ -143,7 +143,7 @@ function sktweddinglite_pagination() {
 	if( is_array($page_format) ) {
 		$paged = ( get_query_var('paged') == 0 ) ? 1 : get_query_var('paged');
 		echo '<div class="pagination"><div><ul>';
-		echo '<li><span>'. esc_attr( $paged ) . esc_attr( $wp_query->max_num_pages ) .'</span></li>';
+		echo '<li><span>'. esc_attr( $paged ) . ' of ' . esc_attr( $wp_query->max_num_pages ) .'</span></li>';
 		foreach ( $page_format as $page ) {
 			echo '<li>' . $page . '</li>';
 		}

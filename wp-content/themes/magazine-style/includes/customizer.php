@@ -1,8 +1,8 @@
 <?php
 /**
- * Magazine Style Theme Customizer
+ * magazine Theme Customizer
  *
- * @package Magazine Style
+ * @package magazine
  */
 
 /**
@@ -18,6 +18,34 @@ function magazine_customize_register( $wp_customize ) {
       $wp_customize->remove_section("background_image");
                         
   
+$wp_customize->add_section( 'magazine_responsive' , 
+        array(
+				'title'       => __( 'Theme Options & Settings', 'magazine' ),
+				'priority'    => 30,
+				'description'	=> __('Upload Logo and Change Theme Settings Please Go to Theme options.', 'magazine'). '<a href="' . esc_url(__(admin_url( 'admin.php?page=options-framework' ).'','magazine')) . '" target="_blank">' . esc_attr__( ' Change Theme Options', 'magazine' ) . '</a>'
+					
+		));
+		
+         //Show or Hide woo product
+         $wp_customize->add_setting('reponsive',
+	
+		array(
+			'default'			=> 'Go To magazine Options',
+			'type'				=> 'theme_mod',
+			'capability'		=> 'edit_theme_options',
+			'sanitize_callback'	=> 'magazine_sanitize_text'
+		)
+	);
+                 $wp_customize->add_control(new WP_customize_control ($wp_customize,'reponsive',
+                         array (
+                             
+                             'settings'		=> 'reponsive',
+                             'section'		=> 'magazine_responsive',
+                             'type'		=> 'text',    	 
+                            'label'		=> __( 'Dashboard > Appearance > magazine options', 'magazine' )
+			
+                             
+                         )  ));
 }
 
 add_action("customize_register","magazine_customize_register");

@@ -106,7 +106,7 @@ $options[] = array(
             <li>' . esc_attr__( 'Responsive Website Design.', 'magazine' ) . '</li>
             <li>' . esc_attr__( 'Different Website Layout to Select.', 'magazine' ) . '</li>
             <li>' . esc_attr__( 'Many of Other customize feature for your blog or website.', 'magazine' ) . '</li>
-            <p><span class="buypre"><a href="' . esc_url(__('http://www.insertcart.com/magazine-style','magazine')) . '" target="_blank">' . esc_attr__( 'Upgrade Now', 'magazine' ) . '</a></span><span class="buypred"><a href="' . esc_url(__('http://www.insertcart.com','magazine')) . '" target="_blank">' . esc_attr__( 'Shop More Themes !', 'magazine' ) . '</a></span></p>',
+            <p><span class="buypre"><a href="' . esc_url(__('http://www.insertcart.com/product/magazine-style-wp-theme/','magazine')) . '" target="_blank">' . esc_attr__( 'Upgrade Now', 'magazine' ) . '</a></span><span class="buypred"><a href="' . esc_url(__('http://www.insertcart.com','magazine')) . '" target="_blank">' . esc_attr__( 'Shop More Themes !', 'magazine' ) . '</a></span></p>',
             'class' => 'tesingh',
             'type' => 'info');
 		
@@ -548,7 +548,7 @@ $options[] = array(
 		$options[] = array(
 		    'desc' => 'Paste Ad code for single post it show ads below post title and before content.',
             'id' => 'magazine_ftarea',
-			  'std' => esc_attr__( 'Copyright  &#169; 2015 Designed by: ', 'magazine' ) . '<a href="' . esc_url(__('http://www.insertcart.com/magazine-style','magazine')) . '" title="' . esc_attr__( 'InsertCart.com', 'magazine' ) . '">' . esc_attr__( 'InsertCart', 'magazine' ) . '</a>',
+			  'std' => esc_attr__( 'Copyright  &#169; 2016 Designed by: ', 'magazine' ) . '<a href="' . esc_url(__('http://www.insertcart.com/product/magazine-style-wp-theme/','magazine')) . '" title="' . esc_attr__( 'InsertCart.com', 'magazine' ) . '">' . esc_attr__( 'InsertCart', 'magazine' ) . '</a>',
             'type' => 'textarea');
 
           
@@ -556,12 +556,20 @@ $options[] = array(
 		'name' => __('Theme Support', 'magazine'),
 		'type' => 'heading' );
 $options[] = array(
-		 'desc' => '<h2>' . esc_attr__( 'Need support about theme go to Support forum', 'magazine' ) . '</h2>
-		 
-            ' . esc_attr__( 'If you have any problem in using options then please read theme documentation first ', 'magazine' ) . '<a href="' . esc_url(__('http://www.wrock.org/documentation-install-wordpress-premium-theme-without-data-loss/','magazine')) . '" target="_blank">' . esc_attr__( 'Theme Documentation', 'magazine' ) . '</a>  ' . esc_attr__( 'Before you contact us via directly please use support forum also We recommend you to use some WordPress plugin like "Regenerate Thumbnails" WordPress SEO and W3tc to optimize and get great website experience.', 'magazine' ) . '
-            <p><span class="buypre"><a href="' . esc_url(__('http://forum.insertcart.com','magazine')) . '" target="_blank">' . esc_attr__( 'Support Forum', 'magazine' ) . '</a></span></p></br>'
-			,
-            'type' => 'info');					
+		 'desc' => '<h2>' . esc_attr__( 'Need support about theme go to Support forum', 'magazine' ) . '</h2>		 
+            ' . esc_attr__( 'If you have any problem in using options then please read theme documentation first ', 'magazine' ) . '<a href="' . esc_url(__('http://www.insertcart.com/magazine-style-wp-theme-documentation-and-setup-guide/','magazine')) . '" target="_blank">' . esc_attr__( 'Theme Documentation', 'magazine' ) . '</a>  ' . esc_attr__( 'Before you contact us via directly please use support forum also We recommend you to use some WordPress plugin like "Regenerate Thumbnails" WordPress SEO and W3tc to optimize and get great website experience.', 'magazine' ) . '
+            <p><span class="buypre"><a href="' . esc_url(__('http://forum.insertcart.com','magazine')) . '" target="_blank">' . esc_attr__( 'Support Forum', 'magazine' ) . '</a></span></p></br><ol>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/faq-frequently-asked-question-theme-setup/','magazine')) . '" target="_blank">' . esc_attr__( 'FAQ – Frequently Asked Question About Theme Setup', 'magazine' ) . '</a></li>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/making-post-by-importing-docx-file-content-into-post-images/','magazine')) . '" target="_blank">' . esc_attr__( 'Making Post by Importing Docx File Content into Post Images', 'magazine' ) . '</a></li>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/how-to-secure-website-made-these-changes-in-htaccess/','magazine')) . '" target="_blank">' . esc_attr__( 'How to Secure Website? Made these changes in .htaccess', 'magazine' ) . '</a></li>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/how-to-add-icon-navigation-menu/','magazine')) . '" target="_blank">' . esc_attr__( 'How to Add Icon Navigation Menu', 'magazine' ) . '</a></li>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/how-to-install-a-required-or-recommended-plugin/','magazine')) . '" target="_blank">' . esc_attr__( 'How to Install a Required or Recommended Plugin', 'magazine' ) . '</a></li>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/fix-woocommerce-pages-issue-missing-reinstall/','magazine')) . '" target="_blank">' . esc_attr__( 'Fix Woocommerce Pages Issue Missing or reinstall', 'magazine' ) . '</a></li>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/get-current-page-url-in-wordpress/','magazine')) . '" target="_blank">' . esc_attr__( 'Get Current Page URL in WordPress', 'magazine' ) . '</a></li>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/add-ad-code-after-every-few-post/','magazine')) . '" target="_blank">' . esc_attr__( 'Add Ad Code After Every Few Post', 'magazine' ) . '</a></li>
+			<li><a href="' . esc_url(__('http://www.insertcart.com/add-icons-wordpress-customizer-setting-panel/','magazine')) . '" target="_blank">' . esc_attr__( 'Add Icons to WordPress Customizer Setting Panel', 'magazine' ) . '</a></li>
+			</ol>',
+            'type' => 'info');				
 
 	return $options;
 

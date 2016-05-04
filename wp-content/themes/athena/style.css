@@ -47,6 +47,60 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 
+
+/*-----------------------------------------------------------
+
+		cooperation_button
+
+------------------------------------------------------------*/
+.corp_button a,
+.stu_button a{
+	box-shadow: 2px 2px 3px #222;
+	border-radius: 6px;
+	color: #fff!important;
+	font-size: 20px;
+	padding: 10px;
+	width: 30%;
+	margin-left: 13%;
+	margin-bottom: 10px;
+	text-align: center;
+	float: left;
+}
+.corp_button a{
+	background-color: #4E9AC7;
+}
+.corp_button a:hover{
+	color: #4E9AC7!important;
+	background-color: #fff;
+	border: solid 2px #4E9AC7;
+	border-radius: 6px;
+}
+.stu_button a{
+	background-color: #ffa07a;
+}
+.stu_button a:hover{
+	color: #ffa07a!important;
+	background-color: #fff;
+	border: solid 2px #ffa07a;
+	border-radius: 6px;
+}
+@media screen and (max-width: 768px){
+	.corp_button a,
+	.stu_button a{
+		width: 70%;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
+/*     clearfix          */
+.clearfix{
+	clear: both;
+}
+
+
 /*newinfo*/
 .newinfo{
 	border: 2px solid #ccc;
@@ -494,7 +548,6 @@ img {
 	max-width: 100%; /* Adhere to container width. */
 }
 
-
 /*--------------------------------------------------------------------
  about image
 ----------------------------------------------------------------------*/
@@ -523,18 +576,18 @@ img {
 	}
 	.about1{
 	display: block;
-	width: 100%;
-	margin-top: 10px;
+	width: 90%;
+	margin: 0 auto;
 	}
 	.about2{
 	display: block;
-	width:100%;
-	margin-top: 10px;
+	width:90%;
+	margin: 0 auto;
 	}
 	.about3{
 	display: block;
-	width:100%;
-	margin-top: 10px;
+	width:90%;
+	margin: 0 auto;
 	}
 	.momoka{
 		float: none;

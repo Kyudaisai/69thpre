@@ -23,6 +23,7 @@
         <meta property="og:image" content="http://www.kyudaisai.jp/69thpre/wp-content/img/top_img.jpg">
         <meta property="og:type" content="website" />
         <meta property="og:url" contetnt="[http://www.lyudaisai.jp]">
+        <meta name="robots" content="noindex,nofollow" />
 
         <?php wp_head(); ?>
     </head>

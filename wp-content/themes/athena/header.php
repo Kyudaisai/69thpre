@@ -16,14 +16,13 @@
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
         
-		<meta name="description" content="第69回九大祭　期日：2016年11月　場所：九州大学伊都キャンパス">
+		<meta name="description" content="第69回九大祭　期日：2016年11月19(土)20(日)　場所：九州大学伊都キャンパス">
 		<meta name="keywords" content="69,2016,九大祭,kyudaisai,2016年,学祭,九州大学,ミスコン,伊都,糸島,伊都キャンパス,ミスキャンパス,百花">
         
         <meta property="og:title" content="第69回九大祭公式webサイト">
         <meta property="og:image" content="http://www.kyudaisai.jp/69thpre/wp-content/img/top_img.jpg">
         <meta property="og:type" content="website" />
-        <meta property="og:url" contetnt="[http://www.lyudaisai.jp]">
-        <meta name="robots" content="noindex,nofollow" />
+        <meta property="og:url" contetnt="[http://www.kyudaisai.jp]">
 
         <?php wp_head(); ?>
     </head>

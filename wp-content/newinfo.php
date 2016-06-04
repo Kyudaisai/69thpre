@@ -26,15 +26,21 @@
 <body>
 	<div>
 		<p>
+			2016.6.1(水)<br>
+			企画団体の皆様へ<br>
+			第1回企画説明会についての情報を公開しました。<br>
+			九大祭に企画参加をお考えの皆様はご確認下さい。<br>
+			<a href="http://www.kyudaisai.jp/69thpre/group/" target="_top">詳細はコチラ</a><br><br>
+			
 			2016.5.9(月)<br>
 			ご協賛について<br>
 			ご協賛についての情報を公開しました。<br>
 			<a href="http://www.kyudaisai.jp/69thpre/coop/" target="_top">詳細はコチラ</a><br><br>
 		
-			2016.4.7(木)<br>
+			<!--2016.4.7(木)<br>
 			新入生の皆様へ<br>
 			各局紹介を公開しました。各局の特徴や仕事内容の説明を掲載しておりますので、興味をお持ちの新入生の皆様は是非一度ご覧ください。<br>
-			<a href="http://www.kyudaisai.jp/69thpre/forfreshman/#part" target="_top">詳細はコチラ</a><br><br>
+			<a href="http://www.kyudaisai.jp/69thpre/forfreshman/#part" target="_top">詳細はコチラ</a><br><br-->
 			
 			2016.4.1(金)<br>
 			リンク<br>

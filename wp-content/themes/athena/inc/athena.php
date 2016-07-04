@@ -249,7 +249,7 @@ function athena_custom_css() {
         }
         
         ul.athena-nav > li.menu-item a{
-            font-size: <?php echo esc_attr( get_theme_mod('menu_font_size', '14px' ) ); ?>;
+            font-size: <?php echo esc_attr( get_theme_mod('menu_font_size', '11px' ) ); ?>;
         }
         
     </style>

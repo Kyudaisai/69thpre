@@ -26,6 +26,22 @@
 <body>
 	<div>
 		<p>
+			2016.6.27(月)<br>
+			企画団体の皆様へ<br>
+			参加企画書の配布を開始しました<br>
+			企画団体の皆様はダウンロードをお願いします。<br>
+			<a href="http://www.kyudaisai.jp/69thpre/group/#Files/" target="_top">詳細はコチラ</a><br><br>
+			<br>
+			九大祭テーマ発表!<br>
+			第69回九大祭テーマを発表しました。<br>
+			<a href="http://www.kyudaisai.jp/69thpre/about/" target="_top">詳細はコチラ</a><br><br>
+			
+			2016.6.25(土)<br>
+			ミスター九大・ミス九大<br>
+			ミスター九大・ミス九大参加者の募集を開始致しました!<br>
+			皆様からのたくさんのご応募をお待ちしております。<br>
+			<a href="http://www.kyudaisai.jp/69thpre/mr-ms/" target="_top">詳細はコチラ</a><br><br>
+			
 			2016.6.1(水)<br>
 			企画団体の皆様へ<br>
 			第1回企画説明会についての情報を公開しました。<br>

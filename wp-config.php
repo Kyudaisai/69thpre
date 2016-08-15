@@ -46,6 +46,9 @@ define('DB_COLLATE', '');
 
 define('WP_SITEURL','http://www.kyudaisai.jp/69thpre');
 
+/* ダッシュボードからのファイル編集の無効化 */
+define('DISALLOW_FILE_EDIT', true);
+
 /**#@+
  * 認証用ユニークキー
  *
